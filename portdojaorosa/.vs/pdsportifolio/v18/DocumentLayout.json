@@ -1,12 +1,76 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "WorkspaceRootPath": "C:\\Users\\2024102020023\\Documents\\GitHub\\Geisilane-Arthur\\portdojaorosa\\",
   "Documents": [],
+=======
+  "WorkspaceRootPath": "C:\\Users\\2024102020004\\Documents\\GitHub\\Geisilane-Arthur\\portdojaorosa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F45C586-3A4F-4D5E-BB93-E9C6F422390F}|Webportifolio.csproj|c:\\users\\2024102020004\\documents\\github\\geisilane-arthur\\portdojaorosa\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F45C586-3A4F-4D5E-BB93-E9C6F422390F}|Webportifolio.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F45C586-3A4F-4D5E-BB93-E9C6F422390F}|Webportifolio.csproj|c:\\users\\2024102020004\\documents\\github\\geisilane-arthur\\portdojaorosa\\components\\pages\\geisemenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F45C586-3A4F-4D5E-BB93-E9C6F422390F}|Webportifolio.csproj|solutionrelative:components\\pages\\geisemenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F45C586-3A4F-4D5E-BB93-E9C6F422390F}|Webportifolio.csproj|c:\\users\\2024102020004\\documents\\github\\geisilane-arthur\\portdojaorosa\\components\\pages\\guideshistoria.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F45C586-3A4F-4D5E-BB93-E9C6F422390F}|Webportifolio.csproj|solutionrelative:components\\pages\\guideshistoria.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+>>>>>>> Stashed changes
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GeiseMenu.razor",
+              "DocumentMoniker": "C:\\Users\\2024102020004\\Documents\\GitHub\\Geisilane-Arthur\\portdojaorosa\\Components\\Pages\\GeiseMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\GeiseMenu.razor",
+              "ToolTip": "C:\\Users\\2024102020004\\Documents\\GitHub\\Geisilane-Arthur\\portdojaorosa\\Components\\Pages\\GeiseMenu.razor",
+              "RelativeToolTip": "Components\\Pages\\GeiseMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-01T15:06:17.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\2024102020004\\Documents\\GitHub\\Geisilane-Arthur\\portdojaorosa\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\2024102020004\\Documents\\GitHub\\Geisilane-Arthur\\portdojaorosa\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-01T15:04:30.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GuidesHistoria.razor",
+              "DocumentMoniker": "C:\\Users\\2024102020004\\Documents\\GitHub\\Geisilane-Arthur\\portdojaorosa\\Components\\Pages\\GuidesHistoria.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\GuidesHistoria.razor",
+              "ToolTip": "C:\\Users\\2024102020004\\Documents\\GitHub\\Geisilane-Arthur\\portdojaorosa\\Components\\Pages\\GuidesHistoria.razor",
+              "RelativeToolTip": "Components\\Pages\\GuidesHistoria.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-01T15:03:32.964Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

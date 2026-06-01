@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Webportifolio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8e45cd7f433a192582f8c9fa4657e61c1a4f52a")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91b63332f552cf0723ced8786447a1d5df701e91")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("Webportifolio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Webportifolio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
