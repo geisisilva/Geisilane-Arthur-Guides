@@ -1,0 +1,139 @@
+html,
+body {
+    background: #fff0f5;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+}
+
+.pagina-inicial {
+    background: #fff0f5;
+    color: #5a3d4d;
+    min-height: 100vh;
+    padding: 2rem 1.5rem 4rem;
+}
+
+.secao-banner,
+.secao-destaques {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.secao-banner {
+    padding: 1.5rem 0 2rem;
+}
+
+.banner-principal {
+    background: linear-gradient(135deg, #ffb6c9, #ffd6e2);
+    border-radius: 20px;
+    color: #6b3f50;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(255, 182, 201, 0.25);
+}
+
+.subtitulo-banner,
+.numero-destaque {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.subtitulo-banner {
+    color: #c75c7d;
+    margin: 0 0 0.75rem;
+}
+
+.titulo-banner {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin: 0;
+}
+
+.texto-banner {
+    line-height: 1.6;
+    margin: 1rem auto 0;
+    max-width: 38rem;
+}
+
+.secao-destaques {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.cartao-destaque {
+    background: #ffffff;
+    border: 1px solid #ffd1dc;
+    border-radius: 18px;
+    box-shadow: 0 6px 18px rgba(255, 182, 201, 0.15);
+    padding: 1.5rem;
+    transition: transform 0.2s ease;
+}
+
+    .cartao-destaque:hover {
+        transform: translateY(-4px);
+    }
+
+.cartao-claro {
+    background: #ffffff;
+}
+
+.cartao-escuro {
+    background: #ffe4ec;
+    color: #5a3d4d;
+}
+
+.cartao-destaque-contato {
+    background: #fff7fa;
+}
+
+.numero-destaque {
+    color: #ff6f91;
+    display: inline-block;
+    margin-bottom: 1.25rem;
+}
+
+.cartao-destaque h2 {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 1.7rem;
+    margin: 0 0 0.75rem;
+    color: #d85b84;
+}
+
+.cartao-destaque p {
+    line-height: 1.65;
+    margin: 0 0 1.25rem;
+}
+
+.cartao-destaque a {
+    color: #d85b84;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+    .cartao-destaque a:hover,
+    .cartao-destaque a:focus {
+        text-decoration: underline;
+    }
+
+@media (max-width: 900px) {
+    .secao-destaques {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 640px) {
+    .pagina-inicial {
+        padding: 1rem 1rem 3rem;
+    }
+
+    .banner-principal,
+    .cartao-destaque {
+        border-radius: 14px;
+    }
+
+    .banner-principal {
+        padding: 1.5rem;
+    }
+}
