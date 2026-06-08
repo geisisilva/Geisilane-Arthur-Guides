@@ -1,13 +1,13 @@
 html,
 body {
-    background: #fff0f5;
+    background: #0f172a;
     font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
     margin: 0;
 }
 
 .pagina-inicial {
-    background: #fff0f5;
-    color: #5a3d4d;
+    background: #0f172a;
+    color: #e2e8f0;
     min-height: 100vh;
     padding: 2rem 1.5rem 4rem;
 }
@@ -23,12 +23,12 @@ body {
 }
 
 .banner-principal {
-    background: linear-gradient(135deg, #ffb6c9, #ffd6e2);
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
     border-radius: 20px;
-    color: #6b3f50;
+    color: #ffffff;
     padding: 2rem;
     text-align: center;
-    box-shadow: 0 8px 20px rgba(255, 182, 201, 0.25);
+    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3);
 }
 
 .subtitulo-banner,
@@ -40,7 +40,7 @@ body {
 }
 
 .subtitulo-banner {
-    color: #c75c7d;
+    color: #cbd5e1;
     margin: 0 0 0.75rem;
 }
 
@@ -63,33 +63,35 @@ body {
 }
 
 .cartao-destaque {
-    background: #ffffff;
-    border: 1px solid #ffd1dc;
+    background: #1e293b;
+    border: 1px solid #334155;
     border-radius: 18px;
-    box-shadow: 0 6px 18px rgba(255, 182, 201, 0.15);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
     padding: 1.5rem;
-    transition: transform 0.2s ease;
+    transition: all 0.3s ease;
 }
 
     .cartao-destaque:hover {
-        transform: translateY(-4px);
+        transform: translateY(-6px);
+        border-color: #2563eb;
+        box-shadow: 0 12px 30px rgba(37, 99, 235, 0.25);
     }
 
 .cartao-claro {
-    background: #ffffff;
+    background: #1e293b;
 }
 
 .cartao-escuro {
-    background: #ffe4ec;
-    color: #5a3d4d;
+    background: #312e81;
+    color: #f8fafc;
 }
 
 .cartao-destaque-contato {
-    background: #fff7fa;
+    background: #172554;
 }
 
 .numero-destaque {
-    color: #ff6f91;
+    color: #60a5fa;
     display: inline-block;
     margin-bottom: 1.25rem;
 }
@@ -98,7 +100,7 @@ body {
     font-family: "Georgia", "Times New Roman", serif;
     font-size: 1.7rem;
     margin: 0 0 0.75rem;
-    color: #d85b84;
+    color: #818cf8;
 }
 
 .cartao-destaque p {
@@ -107,13 +109,14 @@ body {
 }
 
 .cartao-destaque a {
-    color: #d85b84;
+    color: #60a5fa;
     font-weight: 700;
     text-decoration: none;
 }
 
     .cartao-destaque a:hover,
     .cartao-destaque a:focus {
+        color: #a78bfa;
         text-decoration: underline;
     }
 
